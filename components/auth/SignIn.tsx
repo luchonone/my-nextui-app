@@ -12,10 +12,9 @@ const SignIn = () => {
   const [showPass, setShowPass] = useState(false);
 
   return (
-    <div className="box sp-grid">
-      
+    <div className="box sp-grid sp-login">
       <div className="sp-grid-col" >
-        <Image src="/images/logo-with-text.png" alt="img" width={533} height={560} />
+        <Image src="/images/sp-logo.png" alt="img" width={533} height={560} />
       </div>
       
       <div className="sp-grid-col">
@@ -45,7 +44,7 @@ const SignIn = () => {
                 }                
               />
 
-            <Link href="#" className="py-3">Olvidé mi contraseña</Link>
+            <Link href="#" className="py-3 color-white">Olvidé mi contraseña</Link>
             <p >¿No tenés cuenta?{" "}
               <Link  href="/auth/sign-up">
                 Registrate
