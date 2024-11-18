@@ -53,7 +53,8 @@ module.exports = {
       "color-danger-600": "#C2182D",
       "color-danger-700": "#A2112F",
       "color-danger-800": "#830A2E",
-      "color-danger-900": "#6C062D"
+      "color-danger-900": "#6C062D",
+      "color-primary-light": "#f2f2f2"
     },
     extend: {
       fontFamily: {
